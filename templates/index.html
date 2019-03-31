@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<title>hello from flask</title>
+{% if name %}
+    <h1>hello {{ name }}</h1>
+{% else %}
+    <h1>helo world</h1>
+{% endif %}
